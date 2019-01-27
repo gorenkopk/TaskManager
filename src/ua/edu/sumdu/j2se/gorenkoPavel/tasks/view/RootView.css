@@ -1,0 +1,24 @@
+#hBox {
+    -fx-background-color: #009AFC;
+}
+#BtnAdd {
+    -fx-background-color:
+            #3c7fb1,
+            linear-gradient(#fafdfe, #e8f5fc),
+            linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+#BtnAdd:hover {
+    -fx-background-color: #dcd61f,
+        linear-gradient(#fafdfe, #fcfce8),
+         linear-gradient(#eaf6fd 0%, #fbfce2 49%, #fdfdcd 50%, #f5f5af 100%);
+
+}
+#BtnAdd:pressed {
+    -fx-background-color: #3c7fb1;
+    -fx-text-fill: white;
+}
